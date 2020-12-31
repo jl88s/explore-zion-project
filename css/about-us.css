@@ -1,0 +1,197 @@
+.hero.p-about-us {
+    width: 100%;
+    height: 35vw;
+    background: url(../img/about-us/hero-banner-about-us.jpg) no-repeat center right;
+    background-size: cover;
+}
+
+.s-whoweare {
+    margin: 5% auto 10%;
+}
+
+.s-whoweare img {
+    width: 100%;
+}
+
+.s-whoweare .brown {
+    background-color: #674A48;
+    color: #fff;
+}
+
+.s-whoweare .text-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* Our Team */
+
+.s-ourteam {
+    margin: 10% auto;
+}
+
+.s-ourteam .section-header {
+    max-width: 640px;
+    margin: 10% auto 20px;
+    text-align: center;
+}
+
+.s-title {
+    padding-bottom: .8em;
+}
+
+.s-ourteam .guide {
+    text-align: center;
+}
+
+.s-ourteam .b-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.img-text {
+    max-width: 350px;
+    margin: auto;
+}
+
+.s-ourteam .img-area{
+    margin: 20px auto;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.jomaree .img-area{
+    background-image: url(../img/about-us/Team-JomareeLawsin.png)
+}
+.svitlana .img-area{
+    background-image: url(../img/about-us/Team-SvitlanaLutsenko.png)
+}
+.kha .img-area{
+    background-image: url(../img/about-us/Team-KhaNguyen.png)
+}
+
+.s-ourteam .button-inner {
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+
+/* Contact Us form */
+
+.s-contactus {
+    margin: 10% auto 0;
+    padding: 8% 16%;
+    background: url("../img/about-us/map.png") no-repeat center;
+    background-size: cover;
+}
+.contact-us-block {
+    background: white;
+    border-radius: 20px;
+    padding: 5% 8%;
+}
+.social-links {
+    margin-bottom: 30px;
+}
+.social-link {
+    background: #212529;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.social-link .fab {
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.field{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+    min-height: 150px;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    .p-about-us {
+        font-size: 14px;
+    }
+
+    .s-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .p-about-us {
+        font-size: 14px;
+    }
+
+    .s-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+    .s-whoweare .text-inner {
+        padding: 8%;
+    }
+    .guide {
+        display: flex;
+        flex-direction: row;
+    }
+    .s-ourteam .img-area {
+        width: 80px;
+        height: 80px;
+    }
+    .s-ourteam .img-text {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .s-ourteam .b-title {
+        margin-bottom: 0;
+    }
+    .s-ourteam .section-header {
+        text-align: left;
+    }
+
+    .s-contactus {
+        padding: 8%;
+    }
+    .contact-us-block {
+        padding: 5% 5% 10%;
+    }
+}
